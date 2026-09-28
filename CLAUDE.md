@@ -25,7 +25,8 @@ When Brie shares a job description (pasted or attached) and asks for a review, f
    - Only skip straight to the full report without asking if Brie has already indicated in that message that she wants the complete treatment regardless of fit (e.g., "review this one fully," "give me the whole report").
 3. If she wants the full report, deliver it in the same structure used so far: Fit Verdict, Strongest Evidence to Preserve, Prioritized Findings, Exact Edits (with current/suggested text), Open Questions.
 4. **Deliverable format: Markdown only**, delivered as a file. Do not render a PDF unless asked.
-5. After the review is delivered (whether full report or just the quick verdict), log it — see Application Log below.
+5. **Save each full report in this Project** at `reviews/YYYY-MM-DD-company-###.md`, using the company's ID from `/company-map.md` (assign one first if it's a new company), never the real company name, in the file name or in the report text. Reports stay private to the Project; never suggest putting them in a public repo. Quick verdicts that don't get a full report are logged only, with notes in the log if useful.
+6. After the review is delivered (whether full report or just the quick verdict), log it — see Application Log below.
 
 ## Application log
 
@@ -41,6 +42,7 @@ Keep a running log at `/applications-log.md` in this Project (create it if it do
 | YYYY-MM-DD | Company ### | Role title | Strong / Moderate / Weak fit + one-line reason | Reviewed / Applied / Skipped / Interviewing / Rejected / Offer |
 
 3. If the review has a Notes section (e.g. for a legitimacy check, or anything with prose detail), use the same "Company ###" form there too instead of the real name — don't let it leak into free text either.
+4. When a full report is saved, add a line under Notes pointing to its `reviews/` path.
 
 - Set "Status" to "Reviewed" by default when logging a new review. Update it later if Brie says she applied, heard back, got an interview, etc. — she'll need to tell you the status change; don't infer it.
 - Don't create a new log file per review — always append to the same one.
