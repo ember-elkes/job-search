@@ -29,15 +29,22 @@ When Brie shares a job description (pasted or attached) and asks for a review, f
 
 ## Application log
 
-Keep a running log at `/applications-log.md` in this Project (create it if it doesn't exist yet). After each JD review, append a row:
+This repo is public, so `/applications-log.md` never contains real company names. Company identity lives only in `/company-map.md`, which is gitignored and stays local.
+
+Keep a running log at `/applications-log.md` in this Project (create it if it doesn't exist yet). After each JD review:
+
+1. Check `/company-map.md` for this company. If it's already there, reuse its ID. If not, assign the next sequential ID (zero-padded, e.g. `001`, `002`) and add a row to `/company-map.md`: `| ID | Company |`.
+2. Append a row to `/applications-log.md` using the ID in place of the company name:
 
 | Date | Company | Role | Verdict | Status |
 |---|---|---|---|---|
-| YYYY-MM-DD | Company name | Role title | Strong / Moderate / Weak fit + one-line reason | Reviewed / Applied / Skipped / Interviewing / Rejected / Offer |
+| YYYY-MM-DD | Company ### | Role title | Strong / Moderate / Weak fit + one-line reason | Reviewed / Applied / Skipped / Interviewing / Rejected / Offer |
+
+3. If the review has a Notes section (e.g. for a legitimacy check, or anything with prose detail), use the same "Company ###" form there too instead of the real name — don't let it leak into free text either.
 
 - Set "Status" to "Reviewed" by default when logging a new review. Update it later if Brie says she applied, heard back, got an interview, etc. — she'll need to tell you the status change; don't infer it.
 - Don't create a new log file per review — always append to the same one.
-- If Brie asks for a summary of her search (e.g., "how many have I reviewed," "what's my pipeline look like"), read this file rather than reconstructing from conversation history.
+- If Brie asks for a summary of her search (e.g., "how many have I reviewed," "what's my pipeline look like"), read this file rather than reconstructing from conversation history. If she asks which company an ID refers to, check `/company-map.md`.
 
 ## Cover letters
 
