@@ -1,6 +1,6 @@
 # job-search
 
-Working repo for Brie Kramer's 2026 cybersecurity job search, mainly SOC L1 (Tier 1) Analyst roles, with adjacent IT/security roles evaluated as they come up.
+Working repo for Angela Reeder's 2026 cybersecurity job search, mainly Junior Cyber Threat Intelligence (CTI) Analyst roles, with adjacent IT/security roles evaluated as they come up.
 
 This repo backs a Claude Project that reviews job descriptions against a master resume and logs the results. It's not a portfolio piece, just tracking and reference material for the search itself.
 
@@ -21,7 +21,6 @@ The master resume itself lives in the Claude Project's files, not in this repo.
 
 ## Background
 
-- Certifications: GIAC GCCC, GCIH, GSEC, GFACT; CompTIA Security+; (ISC)² CC.
-- WiCyS/SANS Technology Institute scholarship alum.
-- 2x Salesforce Certified Administrator; prior career in Salesforce/CRM administration and presentation/document specialist work.
-- USAF veteran.
+- Certifications: GIAC GFACT, GSEC, GCIH; (ISC)² CC; Google: Cybersecurity Professional; MAD20 Cyber Threat Intelligence Certification
+- Organizations: Women in CyberSecurity (WiCys); Women + Cybersecurity = Women's Society of Cyberjutsu
+- Mentorship: WiCyS Technical Mentor for Google Cybersecurity Professional Certificate cohort (2024, 2025, 2026)
