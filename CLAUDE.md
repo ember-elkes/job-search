@@ -1,6 +1,6 @@
 # Job Search: Cybersecurity Resume & JD Review
 
-This Project supports Angela Kramer's 2026 cybersecurity job search, primarily SOC L1 (Tier 1) Analyst roles, though adjacent IT/security roles may also come through here. Use this file as standing instructions for every conversation in this Project.
+This Project supports Angela Reeder's 2026 cybersecurity job search, primarily Junior Cyber Threat Intelligence Analyst roles, though adjacent IT/security roles may also come through here. Use this file as standing instructions for every conversation in this Project.
 
 ## Background (for context, not to restate unprompted)
 
@@ -10,7 +10,7 @@ This Project supports Angela Kramer's 2026 cybersecurity job search, primarily S
 
 ## Master resume
 
-The master resume is `Angela_R_Resume.docx` in this Project's files (updated 2026-09-30). It is the single source of truth. Use it by default for any review or edit in this Project.
+The master resume is found at Job Search\Angela R Resume.docx (updated 2026-09-30). It is the single source of truth. Use it by default for any review or edit in this Project.
 
 If Angela uploads a resume file in a given turn, treat that upload as the authoritative version for that turn. Use it instead of the stored master, and ask whether it should replace the stored master copy going forward. Don't overwrite the master file without confirmation.
 
@@ -23,28 +23,29 @@ When Angela shares a job description (pasted or attached) and asks for a review,
    - Only skip straight to the full report without asking if Angela has already indicated in that message that she wants the complete treatment regardless of fit (e.g., "review this one fully," "give me the whole report").
 3. If she wants the full report, deliver it in the same structure used so far: Fit Verdict, Strongest Evidence to Preserve, Prioritized Findings, Exact Edits (with current/suggested text), Open Questions.
 4. **Deliverable format: Markdown only**, delivered as a file. Do not render a PDF unless asked.
-5. **Save each full report in this Project** at `reviews/YYYY-MM-DD-company-###.md`, using the company's ID from `/company-map.md` (assign one first if it's a new company), never the real company name, in the file name or in the report text. Reports stay private to the Project; never suggest putting them in a public repo. Quick verdicts that don't get a full report are logged only, with notes in the log if useful.
+5. **Save each full report in this Project** at `Job Search\reviews\YYYY-MM-DD-company-###.md`, using the company's ID from `Job Search\job-search\company-map.md` (assign one first if it's a new company), never the real company name, in the file name or in the report text. Reports stay private to the Project; never suggest putting them in a public repo. Quick verdicts that don't get a full report are logged only, with notes in the log if useful.
 6. After the review is delivered (whether full report or just the quick verdict), log it. See Application Log below.
 
 ## Application log
 
-This repo is public, so `/applications-log.md` never contains real company names. Company identity lives only in `/company-map.md`, which is gitignored and stays local.
+This repo is public, so `Job Search\job-search\applications-log.md` never contains real company names. Company identity lives only in `Job Search\job-search\company-map.md`, which is gitignored and stays local.
 
-Keep a running log at `/applications-log.md` in this Project (create it if it doesn't exist yet). After each JD review:
+Keep a running log at `Job Search\job-search\applications-log.md` in this Project (create it if it doesn't exist yet). After each JD review:
 
-1. Check `/company-map.md` for this company. If it's already there, reuse its ID. If not, assign the next sequential ID (zero-padded, e.g. `001`, `002`) and add a row to `/company-map.md`: `| ID | Company |`.
-2. Append a row to `/applications-log.md` using the ID in place of the company name:
+1. Check `Job Search\job-search\company-map.md` for this company. If it's already there, reuse its ID. If not, assign the next sequential ID (zero-padded, e.g. `001`, `002`) and add a row to `Job Search\job-search\company-map.md`: `| ID | Company |`.
+2. Append a row to `Job Search\job-search\applications-log.md` using the ID in place of the company name:
 
 | Date       | Company     | Role       | Verdict                                        | Status                                                         |
 | ---------- | ----------- | ---------- | ---------------------------------------------- | -------------------------------------------------------------- |
 | YYYY-MM-DD | Company ### | Role title | Strong / Moderate / Weak fit + one-line reason | Reviewed / Applied / Skipped / Interviewing / Rejected / Offer |
 
-1. If the review has a Notes section (e.g. for a legitimacy check, or anything with prose detail), use the same "Company ###" form there too instead of the real name. Don't let it leak into free text either.
-2. When a full report is saved, add a line under Notes pointing to its `reviews/` path.
+3. If the review has a Notes section (e.g. for a legitimacy check, or anything with prose detail), use the same "Company ###" form there too instead of the real name. Don't let it leak into free text either.
+4. When a full report is saved, add a line under Notes pointing to its `Job Search\reviews` path.
 
 - Set "Status" to "Reviewed" by default when logging a new review. Update it later if Angela says she applied, heard back, got an interview, etc. She'll need to tell you the status change; don't infer it.
 - Don't create a new log file per review. Always append to the same one.
-- If Angela asks for a summary of her search (e.g., "how many have I reviewed," "what's my pipeline look like"), read this file rather than reconstructing from conversation history. If she asks which company an ID refers to, check `/company-map.md`.
+
+- If Angela asks for a summary of her search (e.g., "how many have I reviewed," "what's my pipeline look like"), read this file rather than reconstructing from conversation history. If she asks which company an ID refers to, check `Job Search\job-search\company-map.md`.
 
 ## Cover letters
 
